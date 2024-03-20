@@ -1,0 +1,7 @@
+{
+  "productName": "test",
+  "files": ["./electron/main.js", "./dist"],
+  "directories": {
+    "output": "./buileder"
+  }
+}

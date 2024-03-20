@@ -6,12 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "electron:build": "vite build & electron-builder build --config electron-builder.json"
   },
   "dependencies": {
     "echarts": "^5.5.0",
-    "electron": "^29.1.4",
-    "electron-builder": "^24.13.3",
+   
     "pinia": "^2.1.7",
     "sass": "^1.72.0",
     "sass-loader": "^14.1.1",
@@ -21,6 +21,8 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "electron": "^29.1.4",
+    "electron-builder": "^24.13.3",
     "@vitejs/plugin-vue": "^5.0.4",
     "naive-ui": "^2.38.1",
     "vite": "^5.1.5",
