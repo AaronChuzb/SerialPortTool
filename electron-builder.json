@@ -1,6 +1,6 @@
 {
   "productName": "test",
-  "files": ["./electron/main.js", "./dist"],
+  "files": ["./electron/main.js", "./electron/preload.js", "./dist"],
   "directories": {
     "output": "./buileder"
   }
